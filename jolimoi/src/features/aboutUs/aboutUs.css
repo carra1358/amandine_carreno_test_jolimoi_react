@@ -1,0 +1,46 @@
+.about_us{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about_us_img_container, .about_us_msg_container {
+    width: 50%;
+    height: 100%;
+}
+
+.about_us_img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_us_msg_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55D7FF;
+}
+
+@media  screen and (max-width: 767px) {
+
+    .about_us{
+        height: unset;
+        flex-direction: column-reverse;
+    }
+    
+    .about_us_img_container, .about_us_msg_container {
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .about_us_img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .about_us_msg_container{
+     font-size: 0.7em;
+    }
+    
+}
