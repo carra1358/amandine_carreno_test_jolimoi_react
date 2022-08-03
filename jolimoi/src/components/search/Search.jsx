@@ -7,7 +7,7 @@ import "./search.css"
  * Component that handles search bar and search results list
  * @return React.element
  */
-function SearchView() {
+function Search() {
 
     // search input value
     const [input, setInput] = useState("")
@@ -83,6 +83,11 @@ function SearchView() {
 
         }
 
+        return (() => {
+            setResults([])
+            setNoMatch("")
+            setInput("")
+        })
 
     }, [input])
 
@@ -109,4 +114,4 @@ function SearchView() {
     )
 }
 
-export default SearchView
+export default Search
