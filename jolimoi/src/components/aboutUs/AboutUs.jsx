@@ -1,7 +1,12 @@
 import "./aboutUs.css"
 import propTypes from 'prop-types';
 
-
+/**
+ * Component that handles site introduction section
+ * @param {string} img media path
+ * @param {any} msg string || object to render text content 
+ * @return React.element
+ */
 function AboutUsView({ img, msg }) {
 
     return (
