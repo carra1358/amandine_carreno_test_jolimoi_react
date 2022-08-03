@@ -1,10 +1,10 @@
 # amandine_carreno_test_jolimoi
-# HR net 
+
 
 ![React](https://shields.io/badge/madewith-ReactApp-teal)
 
 
-## Goal
+## Mission
 
 - Integration of desktop and mobile design
 - Allow user to find products corresponding to search input 
