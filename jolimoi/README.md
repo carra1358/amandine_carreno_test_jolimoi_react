@@ -16,6 +16,12 @@
 - [Visual Studio Code ](https://code.visualstudio.com/) - Code editor.
 - [Git](https://git-scm.com/) - Version control.
 
+
+## Deployed with vercel
+
+
+- [Link to project ](https://amandine-carreno-test-jolimoi-react.vercel.app/) 
+
 ## Installation
 
 - git clone
