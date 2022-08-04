@@ -7,7 +7,7 @@ import propTypes from 'prop-types';
  * @param {any} msg string || object to render text content 
  * @return React.element
  */
-function AboutUsView({ img, msg }) {
+function AboutUs({ img, msg }) {
 
     return (
         <div className="about_us">
@@ -26,7 +26,7 @@ function AboutUsView({ img, msg }) {
     )
 }
 
-AboutUsView.propTypes = {
+AboutUs.propTypes = {
     img: propTypes.string,
     msg: propTypes.any
 };
@@ -34,6 +34,6 @@ AboutUsView.propTypes = {
 
 
 
-export default AboutUsView;
+export default AboutUs;
 
 
