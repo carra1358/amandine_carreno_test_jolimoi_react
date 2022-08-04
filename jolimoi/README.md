@@ -7,7 +7,7 @@
 ## Mission
 
 - Integration of desktop and mobile design
-- Allow user to find products corresponding to search input 
+- Allows user to find products corresponding to search input 
 
 ## Tech
 
